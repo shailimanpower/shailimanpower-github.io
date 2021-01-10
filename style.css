@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    cursor: default;
+    color: wheat;
+}
+
+body{
+    background-color: #212529;
+}
+
+.heading{
+    top: 3px;
+    padding: 5px;
+    margin: auto;
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+.heading img{
+    display: block;
+    margin: 8px auto;
+    width: 100px;
+    height: 100px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    border: 2px solid  gray(0, 26, 255);
+    box-sizing: border-box;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.centerbox{
+    color: white;
+    box-sizing: border-box;
+    margin: 8px auto;
+    width: 60%;
+}
+.centerbox marquee{
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+.container1{
+    /* border: 2px solid yellow; */
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 20px auto;
+    margin-top: 50px;
+    width: 80%;
+    height: fit-content;
+    padding: 8px;
+    border-top: 2px dashed white;
+}
+.box{
+    color: white;
+    overflow: auto;
+    box-sizing: border-box;
+    margin-top: 8px;
+    padding: 8px;
+    width: 48%;
+    border: 2px solid transparent;
+    background-color: #484848;
+}
+.box h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.leftBox{
+    float: left;
+}
+
+.rightBox{
+    float: right;
+}
+
+.leftDesc{
+    float: left;
+    clear: left;
+}
+.rightDesc{
+    float: right;
+    clear: right;
+}
+
+ul{
+    overflow:visible;
+    width: auto;
+    font-family: cursive;
+    margin: 8px;
+    margin-left: 18px;
+    padding: 8px;
+}
+
+.button{
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: max-content;
+    display: block;
+    padding: 12px;
+    color: black;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: cursive;
+    clear: both;
+}
+
+.footer{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: auto;
+    background-color: white;
+}
+.footer .rightDesc{
+    color: black;
+}
+.footer .leftDesc{
+    color: black;
+
+}
+.footerbox{
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+    width: 48%;
+    padding: 8px 8px 8px 90px;
+    margin: auto;
+}
+.footerbox h3{
+    color: black;
+    text-decoration: underline;
+}
+.footerbox li{
+    color: black;
+}
+.leftfooter{
+    float: left;
+    /* border: 2px solid yellow; */
+}
+.rightfooter{
+    float: right;
+}
